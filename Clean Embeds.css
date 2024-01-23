@@ -1,0 +1,74 @@
+/* ------------ */ 
+/* CLEAN EMBEDS */
+/* ------------ */
+
+.markdown-preview-view .markdown-rendered .node-insert-event {
+  padding-left: 0px;
+}  
+
+.markdown-preview-view .markdown-embed-title,
+.markdown-preview-view .obsidian-metatable {
+  display: none;
+}
+
+.markdown-preview-view .markdown-embed-link,
+.markdown-preview-view .file-embed-link {
+  display: none;
+}
+
+.markdown-preview-view .markdown-embed-link::before,
+.markdown-preview-view .file-embed-link::before {
+  display: none;
+}
+
+.markdown-preview-view .markdown-embed,
+.markdown-preview-view .file-embed {
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*background: #1E1E1E !important;*/
+  box-shadow: none !important;
+}
+
+.markdown-embed-content {
+  background: var(--background-primary);
+}
+
+.markdown-preview-view .markdown-embed-content,
+.markdown-preview-view .markdown-embed-content > .markdown-preview-view { 
+  max-height: unset;
+  padding: 0; 
+  margin: 0;
+  border: 0;
+}
+
+.markdown-preview-section div > br {
+  display: none;
+}
+
+div.markdown-preview-sizer.markdown-preview-section {
+  min-height: unset !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  
+}
+
+div.markdown-preview-view {
+  background: transparent;
+  border: none;
+}
+
+@media print {
+
+  pre.frontmatter,
+  .obsidian-metatable {
+    display: none;
+  }
+}
+
+h1, .markdown-rendered h1 {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+

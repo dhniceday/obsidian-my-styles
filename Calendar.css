@@ -1,0 +1,81 @@
+#calendar-container {
+    --color-background-heading: transparent;
+    --color-background-day: transparent;
+    --color-background-weeknum: transparent;
+    --color-background-weekend: transparent;
+
+    --color-dot: var(--text-muted);
+    --color-arrow: var(--text-muted);
+    --color-button: var(--text-muted);
+
+    --color-text-title: var(--text-normal);
+    --color-text-heading: var(--text-muted);
+    --color-text-day: var(--text-normal);
+    --color-text-today: var(--interactive-accent);
+    --color-text-weeknum: var(--text-muted);
+
+    --calendar-font-size: 1em;
+
+    font-size: var(--calendar-font-size);
+}
+
+.view-content:has(#calendar-container) {
+    padding: 0;
+}
+
+#calendar-container {
+    padding: 0 8px 8px 8px;
+}
+
+#calendar-container .year {
+    color: var(--text-muted);
+    font-family: var(--font-interface);
+    font-size: var(--calendar-font-size);
+}
+
+#calendar-container .month {
+    font-family: var(--font-interface);
+    color: var(--ax1);
+    font-size: var(--calendar-font-size);
+}
+
+#calendar-container .week-num,
+#calendar-container .week-num:hover {
+    color: var(--ax1);
+}
+
+#calendar-container td,
+#calendar-container .day {
+    border-radius: 0 !important;
+}
+
+#calendar-container .day {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#calendar-container .day,
+#calendar-container .week-num {
+    font-size: calc(var(--calendar-font-size) * 0.75);
+}
+
+#calendar-container th {
+    font-size: calc(var(--calendar-font-size) * 0.6) !important;
+    background: var(--bg1, var(--background-secondary));
+}
+
+#calendar-container .day.adjacent-month {
+    color: var(--tx2);
+}
+
+#calendar-container .weekend {
+    background: var(--bg1, var(--background-secondary));
+}
+
+.colorful-active #calendar-container .active,
+.colorful-active #calendar-container .active.today,
+.colorful-active #calendar-container .active:hover,
+.colorful-active #calendar-container .day:active {
+    background-color: var(--bg3);
+    color: var(--title-color);
+}

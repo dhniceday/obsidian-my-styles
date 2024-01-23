@@ -1,0 +1,512 @@
+:root {
+  --dFold1: #fb4934;
+  --dFold2: #b8bb26; 
+  --dFold3: #fabd2f; 
+  --dFold4: #83a598; 
+  --dFold5: #d3869b;
+  --dFold6: #8ec07c; 
+  --dFold7: #fe8019; 
+  --dFold8: #fb4934; 
+  --dFold9: #b8bb26; 
+  --dFold10: #fabd2f; 
+  --dFold11: #83a598; 
+  --dFold12: #d3869b; 
+  --dFold13: #8ec07c; 
+
+  --lFold1: #fb4934;
+  --lFold2: #b8bb26;
+  --lFold3: #fabd2f;
+  --lFold4: #83a598;
+  --lFold5: #d3869b;
+  --lFold6: #8ec07c;
+  --lFold7: #fe8019;
+  --lFold8: #fb4934;
+  --lFold9: #b8bb26;
+  --lFold10: #fabd2f;
+  --lFold11: #83a598;
+  --lFold12: #d3869b;
+  --lFold13: #8ec07c;
+  }
+
+/* Folder Title Colors */      
+
+/* dark theme */
+
+.theme-dark .nav-folder-children .nav-folder .nav-folder-title:hover,
+.theme-dark .nav-folder-children .nav-folder .nav-folder-title:active {
+  color: #fbf1c7 !important;
+}
+
+
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+2) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-title { 
+  color: var(--dFold1);
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+3) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-title {
+  color: var(--dFold2);
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+4) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-title {
+  color: var(--dFold3);
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+5) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-title {
+  color: var(--dFold4);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+6) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-title {
+  color: var(--dFold5);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+7) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-title {
+  color: var(--dFold6);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+8) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-title {
+  color: var(--dFold7);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+9) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-title {
+  color: var(--dFold8);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+10) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-title {
+  color: var(--dFold9);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+11) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-title {
+  color: var(--dFold10);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+12) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-title {
+  color: var(--dFold11);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+13) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-title {
+  color: var(--dFold12);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+14) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-title {
+  color: var(--dFold13);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+15) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-title,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-title {
+  color: var(--dFold14);
+
+}
+
+/* Folder Icon Colors */
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator {
+  color: var(--dFold1);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator {
+  color: var(--dFold2);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator {
+  color: var(--dFold3);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator {
+  color: var(--dFold4);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator {
+  color: var(--dFold5);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator {
+  color: var(--dFold6);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator {
+  color: var(--dFold7);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator {
+  color: var(--dFold8);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator {
+  color: var(--dFold9);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator {
+  color: var(--dFold10);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator {
+  color: var(--dFold11);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator {
+  color: var(--dFold12);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator {
+  color: var(--dFold13);
+
+}
+.theme-dark .nav-folder-children .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator,
+.theme-dark .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator {
+  color: var(--dFold14);
+
+}
+  
+/* light theme */
+
+.theme-light .nav-folder-children .nav-folder .nav-folder-title:hover,
+.theme-light .nav-folder-children .nav-folder .nav-folder-title:active {
+  color: #000000 !important;
+}
+
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+2) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-title { 
+  color: var(--lFold1);
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+3) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-title {
+  color: var(--lFold2);
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+4) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-title {
+  color: var(--lFold3);
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+5) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-title {
+  color: var(--lFold4);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+6) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-title {
+  color: var(--lFold5);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+7) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-title {
+  color: var(--lFold6);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+8) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-title {
+  color: var(--lFold7);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+9) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-title {
+  color: var(--lFold8);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+10) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-title {
+  color: var(--lFold9);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+11) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-title {
+  color: var(--lFold10);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+12) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-title {
+  color: var(--lFold11);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+13) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-title {
+  color: var(--lFold12);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+14) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-title {
+  color: var(--lFold13);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+15) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-title,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-title {
+  color: var(--lFold14);
+
+}
+
+/* Folder Icon Colors */
+
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+2) .nav-folder-collapse-indicator {
+  color: var(--lFold1);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+3) .nav-folder-collapse-indicator {
+  color: var(--lFold2);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+4) .nav-folder-collapse-indicator {
+  color: var(--lFold3);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+5) .nav-folder-collapse-indicator {
+  color: var(--lFold4);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+6) .nav-folder-collapse-indicator {
+  color: var(--lFold5);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+7) .nav-folder-collapse-indicator {
+  color: var(--lFold6);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+8) .nav-folder-collapse-indicator {
+  color: var(--lFold7);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+9) .nav-folder-collapse-indicator {
+  color: var(--lFold8);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+10) .nav-folder-collapse-indicator {
+  color: var(--lFold9);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+11) .nav-folder-collapse-indicator {
+  color: var(--lFold10);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+12) .nav-folder-collapse-indicator {
+  color: var(--lFold11);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+13) .nav-folder-collapse-indicator {
+  color: var(--lFold12);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+14) .nav-folder-collapse-indicator {
+  color: var(--lFold13);
+
+}
+.theme-light .nav-folder-children .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator,
+.theme-light .nav-folder-children .nav-folder-children .nav-folder-children .nav-folder .nav-folder:nth-child(14n+15) .nav-folder-collapse-indicator {
+  color: var(--lFold14);
+
+}
+
+/* ----------------------------------------------
+/* BOOKMARKS 
+-----------------------------------------------*/
+
+/* dark theme */
+
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item-self.is-clickable:hover,
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item-self.is-clickable:active {
+  color: #fbf1c7 !important;
+}
+
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 1)  .tree-item-self { color: var(--dFold1);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 2)  .tree-item-self { color: var(--dFold2);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 3)  .tree-item-self { color: var(--dFold3);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 4)  .tree-item-self { color: var(--dFold4);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 5)  .tree-item-self { color: var(--dFold5);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 6)  .tree-item-self { color: var(--dFold6);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 7)  .tree-item-self { color: var(--dFold7);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 8)  .tree-item-self { color: var(--dFold8);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 9)  .tree-item-self { color: var(--dFold9);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 10)  .tree-item-self { color: var(--dFold10);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 11)  .tree-item-self { color: var(--dFold11);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 12)  .tree-item-self { color: var(--dFold12);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 13)  .tree-item-self { color: var(--dFold13);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 14)  .tree-item-self { color: var(--dFold1);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 15)  .tree-item-self { color: var(--dFold2);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 16)  .tree-item-self { color: var(--dFold3);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 17)  .tree-item-self { color: var(--dFold4);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 18)  .tree-item-self { color: var(--dFold5);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 19)  .tree-item-self { color: var(--dFold6);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 20)  .tree-item-self { color: var(--dFold7);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 21)  .tree-item-self { color: var(--dFold8);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 22)  .tree-item-self { color: var(--dFold9);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 23)  .tree-item-self { color: var(--dFold10);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 24)  .tree-item-self { color: var(--dFold11);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 25)  .tree-item-self { color: var(--dFold12);}
+.theme-dark .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 26)  .tree-item-self { color: var(--dFold13);}
+
+/* light theme */
+
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item-self.is-clickable:hover,
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item-self.is-clickable:active {
+  color: #000000 !important;
+}
+
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 1)  .tree-item-self { color: var(--lFold1);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 2)  .tree-item-self { color: var(--lFold2);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 3)  .tree-item-self { color: var(--lFold3);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 4)  .tree-item-self { color: var(--lFold4);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 5)  .tree-item-self { color: var(--lFold5);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 6)  .tree-item-self { color: var(--lFold6);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 7)  .tree-item-self { color: var(--lFold7);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 8)  .tree-item-self { color: var(--lFold8);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 9)  .tree-item-self { color: var(--lFold9);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 10)  .tree-item-self { color: var(--lFold10);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 11)  .tree-item-self { color: var(--lFold11);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 12)  .tree-item-self { color: var(--lFold12);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 13)  .tree-item-self { color: var(--lFold13);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 14)  .tree-item-self { color: var(--lFold1);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 15)  .tree-item-self { color: var(--lFold2);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 16)  .tree-item-self { color: var(--lFold3);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 17)  .tree-item-self { color: var(--lFold4);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 18)  .tree-item-self { color: var(--lFold5);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 19)  .tree-item-self { color: var(--lFold6);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 20)  .tree-item-self { color: var(--lFold7);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 21)  .tree-item-self { color: var(--lFold8);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 22)  .tree-item-self { color: var(--lFold9);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 23)  .tree-item-self { color: var(--lFold10);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 24)  .tree-item-self { color: var(--lFold11);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 25)  .tree-item-self { color: var(--lFold12);}
+.theme-light .workspace-leaf-content[data-type="bookmarks"] .tree-item:nth-child(13n + 26)  .tree-item-self { color: var(--lFold13);}
+

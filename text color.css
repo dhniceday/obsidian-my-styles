@@ -1,0 +1,183 @@
+/* Gruvbox */
+:root {
+  --theme-dark-italic: #FABD2F;
+  --theme-dark-italic-font-color: #FBF1C7;
+  --theme-dark-bold: #cc241d;
+  --theme-dark-highlight-bg: #fabd2f;
+  --theme-dark-highlight-font: #282828;
+
+  --theme-light-italic: #5c6166;
+  --theme-light-italic-font: #5C6166;
+  --theme-light-bold: #E65050;
+  --theme-light-highlight-bg: #FFD700;
+  --theme-light-highlight-font: #333333;
+}
+
+/* 
+Remove formatting from markdown editor 
+*/
+
+.theme-dark,
+.theme-light {
+  --text-highlight-bg: transparent;
+}
+
+span.cm-highlight {
+  text-decoration: none !important;
+}
+
+.cm-hmd-internal-link,
+.cm-link,
+.cm-string.cm-url,
+.cm-hashtag {
+  color:var(--text-normal) !important;
+  border: 0px;
+}
+
+.cm-hashtag {
+  background-color: var(--background-secondary);
+  border: 0px;
+}
+
+.cm-em {
+  text-decoration: none !important;
+}
+
+/*
+a.internal-link, 
+a.external-link {
+  text-decoration: none !important;
+  } */
+
+.cm-active {
+  background-color: var(--background-secondary);
+}
+
+/* =======================================
+   Dark Theme
+   ======================================= */
+
+/* Bold */
+.theme-dark .markdown-preview-section strong,
+.theme-dark .markdown-preview-section strong > a,
+.theme-dark .markdown-preview-section strong > a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--theme-dark-bold);
+  padding-bottom: 0px;
+  font-style: italic !important;
+  font-weight: bold !important;
+}
+
+/* Italic */
+.theme-dark .markdown-preview-section em {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--theme-dark-italic);
+  padding-bottom: 0px;
+  font-style: italic !important;
+  font-weight: normal !important;
+}
+
+
+/* Highlight */
+.theme-dark .markdown-preview-view mark {
+  text-decoration: none;
+  color: var(--theme-dark-highlight-font);
+  font-weight: normal;
+  background-color: var(--theme-dark-highlight-bg);  
+  border-radius: 4px; 
+  padding: 0px 2px 0px 2px; 
+  opacity: 1; 
+}
+
+/* =======================================
+   Light Theme
+   ======================================= */
+/* Bold */
+.theme-light .markdown-preview-section strong,
+.theme-light .markdown-preview-section strong > a,
+.theme-light .markdown-preview-section strong > a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--theme-light-bold);
+  padding-bottom: 0px;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+/* Italic */
+.theme-light .markdown-preview-section em {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--theme-light-italic);
+  padding-bottom: 0px;
+  font-style: italic !important;
+  font-weight: normal !important; 
+}*
+/*
+.theme-light .markdown-preview-section em {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--theme-light-italic);
+  padding-bottom: 0px;
+  font-style: italic !important;
+  font-weight: normal !important;
+}*/
+
+/* Highlight */
+.theme-light .markdown-preview-view mark {
+  text-decoration: none;
+  color: var(--theme-light-highlight-font);
+  font-weight: normal;
+  background-color: var(--theme-light-highlight-bg);  
+  border-radius: 4px; 
+  padding: 0px 2px 0px 2px; 
+  opacity: 1; 
+}
+
+/* =======================================
+   Outliner Plugin
+   ======================================= */   
+  
+[data-type="outline"] {
+  /* h1 */
+  .tree-item > .tree-item-self {
+    color: var(--h1-color);
+  }
+
+  /* h2 */
+  .tree-item .tree-item > .tree-item-self {
+    color: var(--h2-color);
+  }
+
+  /* h3 */
+  .tree-item .tree-item .tree-item > .tree-item-self {
+    color: var(--h3-color);
+  }
+
+  /* h4 */
+  .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
+    color: var(--h4-color);
+  }
+
+  /* h5 */
+  .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
+    color: var(--h5-color);
+  }
+
+  /* h6 */
+  .tree-item .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
+    color: var(--h6-color);
+  }
+}

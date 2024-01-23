@@ -1,0 +1,28 @@
+body{
+	--normal-max-width: var(--file-line-width);
+	--narrow-max-width: var(--file-line-width);
+	--adj-rll-max-width: 750px;
+}
+:is(body[class*="wide-"], div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width) .cm-sizer,
+:is(body[class*="wide-"]:not(.max-view-enabled), div[class*="wide-"].markdown-source-view.mod-cm6) :is(.cm-contentContainer.cm-contentContainer, .cm-contentContainer.cm-contentContainer > .cm-content, .cm-contentContainer.cm-contentContainer > .cm-content > div, .embedded-backlinks, .embedded-backlinks > div)
+		{ max-width: 100%; width: 98%;  }
+	div[class*="wide-"].markdown-source-view.mod-cm6 .cm-contentContainer.cm-contentContainer > .cm-content table { max-width: 100% }
+	div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block.cm-callout>.callout { max-width: 100%; width: auto; }
+	div[class*="wide-"].markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block.cm-callout>.callout,
+	div[class*="wide-page"].markdown-source-view.mod-cm6 .cm-contentContainer > .embedded-backlinks,
+	div[class*="wide-page"].markdown-source-view.mod-cm6 .cm-contentContainer > .cm-content > div
+		{margin-left: 20px !important; }
+	div[class*="wide-page"].markdown-source-view.mod-cm6.is-readable-line-width table
+		{margin-left:   !important; }
+	body[class*="wide-"] :is(.markdown-preview-sizer.markdown-preview-sizer, .markdown-preview-sizer.markdown-preview-sizer > div),
+	div[class*="wide-"].markdown-preview-view :is(.markdown-preview-sizer.markdown-preview-sizer, .markdown-preview-sizer.markdown-preview-sizer > div)
+		{ max-width: 100%; margin-inline: auto; width: 100%;}
+	div[class*="wide-"].markdown-preview-view {padding-inline: 0px;}
+	:is(body[class*="wide-"]:not(.max-view-enabled) .mod-root .markdown-source-view.mod-cm6:not(.wide-page), div.markdown-source-view.mod-cm6:is(.wide-dataview,.wide-table,.wide-backlinks,.wide-callout)) .cm-sizer > .inline-title
+		{ max-width: var(--normal-max-width); width: 100%; margin-inline: auto;  }
+	:is(body[class*="wide-"]:not(.max-view-enabled) .markdown-source-view.mod-cm6:not(.wide-page), div[class*="wide-"].markdown-source-view.mod-cm6:not(.wide-page)) :is(.cm-contentContainer.cm-contentContainer > .cm-content > div, .cm-sizer > .embedded-backlinks)
+		{ max-width: var(--normal-max-width); margin-inline: auto !important; }
+.wide-table.markdown-source-view.mod-cm6.is-readable-line-width table {margin-left: auto !important; }
+	:is(body[class*="wide-"] .markdown-preview-view:not(.wide-page), div[class*="wide-"].markdown-preview-view:not(.wide-page)) .markdown-preview-sizer.markdown-preview-sizer > div
+		{ max-width: var(--normal-max-width); margin-inline: auto;  } 
+	body[class*="global"].contextual-typography .markdown-preview-view.is-readable-line-width .markdown-preview-sizer > div { width: 100%; }	

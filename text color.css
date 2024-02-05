@@ -1,57 +1,27 @@
-/* Gruvbox */
-:root {
-  --theme-dark-italic: #FABD2F;
-  --theme-dark-italic-font-color: #FBF1C7;
-  --theme-dark-bold: #cc241d;
-  --theme-dark-highlight-bg: #fabd2f;
-  --theme-dark-highlight-font: #282828;
-
-  --theme-light-italic: #5c6166;
-  --theme-light-italic-font: #5C6166;
-  --theme-light-bold: #E65050;
-  --theme-light-highlight-bg: #FFD700;
-  --theme-light-highlight-font: #333333;
-}
-
 /* 
 Remove formatting from markdown editor 
 */
 
-.theme-dark,
-.theme-light {
-  --text-highlight-bg: transparent;
-}
+.theme-dark, .theme-light {
+  --text-highlight-bg: transparent; }
 
 span.cm-highlight {
-  text-decoration: none !important;
-}
+  text-decoration: none !important; }
 
-.cm-hmd-internal-link,
-.cm-link,
-.cm-string.cm-url,
-.cm-hashtag {
+.cm-hmd-internal-link, .cm-link, .cm-string.cm-url, .cm-hashtag {
   color:var(--text-normal) !important;
-  border: 0px;
-}
+  border: 0px; }
 
 .cm-hashtag {
   background-color: var(--background-secondary);
-  border: 0px;
-}
+  border: 0px; }
 
 .cm-em {
   text-decoration: none !important;
-}
-
-/*
-a.internal-link, 
-a.external-link {
-  text-decoration: none !important;
-  } */
+  color: var(--text-normal); }
 
 .cm-active {
-  background-color: var(--background-secondary);
-}
+  background-color: var(--background-secondary); }
 
 /* =======================================
    Dark Theme
@@ -68,8 +38,8 @@ a.external-link {
   text-decoration-color: var(--theme-dark-bold);
   padding-bottom: 0px;
   font-style: italic !important;
-  font-weight: bold !important;
-}
+  font-weight: bold !important; 
+  color: var(--theme-dark-bold-font-color); }
 
 /* Italic */
 .theme-dark .markdown-preview-section em {
@@ -80,9 +50,8 @@ a.external-link {
   text-decoration-color: var(--theme-dark-italic);
   padding-bottom: 0px;
   font-style: italic !important;
-  font-weight: normal !important;
-}
-
+  font-weight: normal !important; 
+  color: var(--theme-dark-italic-font-color)}
 
 /* Highlight */
 .theme-dark .markdown-preview-view mark {
@@ -92,12 +61,12 @@ a.external-link {
   background-color: var(--theme-dark-highlight-bg);  
   border-radius: 4px; 
   padding: 0px 2px 0px 2px; 
-  opacity: 1; 
-}
+  opacity: 1; }
 
 /* =======================================
    Light Theme
    ======================================= */
+
 /* Bold */
 .theme-light .markdown-preview-section strong,
 .theme-light .markdown-preview-section strong > a,
@@ -109,8 +78,7 @@ a.external-link {
   text-decoration-color: var(--theme-light-bold);
   padding-bottom: 0px;
   font-style: normal !important;
-  font-weight: 500 !important;
-}
+  font-weight: 500 !important; }
 
 /* Italic */
 .theme-light .markdown-preview-section em {
@@ -121,9 +89,8 @@ a.external-link {
   text-decoration-color: var(--theme-light-italic);
   padding-bottom: 0px;
   font-style: italic !important;
-  font-weight: normal !important; 
-}*
-/*
+  font-weight: normal !important; }
+
 .theme-light .markdown-preview-section em {
   text-decoration: underline;
   text-decoration-style: solid;
@@ -132,8 +99,7 @@ a.external-link {
   text-decoration-color: var(--theme-light-italic);
   padding-bottom: 0px;
   font-style: italic !important;
-  font-weight: normal !important;
-}*/
+  font-weight: normal !important; }
 
 /* Highlight */
 .theme-light .markdown-preview-view mark {
@@ -149,35 +115,63 @@ a.external-link {
 /* =======================================
    Outliner Plugin
    ======================================= */   
-  
+
 [data-type="outline"] {
-  /* h1 */
   .tree-item > .tree-item-self {
-    color: var(--h1-color);
-  }
-
-  /* h2 */
+    color: var(--h1-color); }
   .tree-item .tree-item > .tree-item-self {
-    color: var(--h2-color);
-  }
-
-  /* h3 */
+    color: var(--h2-color); }
   .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h3-color);
-  }
-
-  /* h4 */
+    color: var(--h3-color);  }
   .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h4-color);
-  }
-
-  /* h5 */
+    color: var(--h4-color); }
   .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h5-color);
-  }
-
-  /* h6 */
+    color: var(--h5-color); }
   .tree-item .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h6-color);
-  }
+    color: var(--h6-color); }
 }
+
+/* Schriften */
+
+.view-content > .markdown-source-view.mod-cm6 .cm-scroller,
+.view-content > .markdown-source-view,
+.view-content > .cm-s-obsidian {
+  font-family: "JetBrains Mono"; }
+
+.default h1, .default h2, .default h3, .default h4, .default h5, .default h6,
+.gnome h1, .gnome h2, .gnome h3, .gnome h4, .gnome h5, .gnome h6 {
+  font-family: "IBM Plex Sans"; }
+
+.default .cm-header-1, .default .cm-header-2, .default .cm-header-3, .default .cm-header-4, .default .cm-header-5, .default .cm-header-6,
+.gnome .cm-header-1, .default .cm-header-2, .default .cm-header-3, .default .cm-header-4, .default .cm-header-5, .default .cm-header-6   {
+  font-family: "JetBrains Mono"; 
+  color: var(--text-accent);}
+
+.gnome h1, .gnome h2, .gnome h3, .gnome h4, .gnome h5, .gnome h6,
+.gnome .markdown-preview-view .internal-link,
+.gnome .markdown-preview-section .external-link {
+  color: var(--text-accent); 
+  font-weight: var(--font-medium); }
+
+.cm-formatting:not(.cm-formatting-code-block):not(.cm-formatting-hashtag) {
+  color: var(--text-faint); }
+
+body {
+  --line-number-color: var(--text-faint);
+  --line-number-color-active: var(--text-muted); }
+
+.markdown-source-view.mod-cm6 .cm-gutters {
+  color: var(--line-number-color) !important; }
+
+.markdown-source-view.mod-cm6 .cm-editor .cm-gutterElement.cm-active .cm-heading-marker,
+.markdown-source-view.mod-cm6 .cm-editor .cm-lineNumbers .cm-gutterElement.cm-active {
+  color: var(--line-number-color-active); }
+
+.cm-editor .cm-lineNumbers {
+  background-color: var(--gutter-background); }
+
+.cm-editor .cm-lineNumbers .cm-gutterElement {
+  min-width: var(--folding-offset);
+  padding-inline-end: 0.5em; }
+
+  

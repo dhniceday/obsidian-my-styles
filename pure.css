@@ -1,0 +1,78 @@
+/*
+🖌️ Pure
+📋 0.1.2
+📅 2024-01-30
+🐦 @lychileng
+🚩 This is a minimalist-style theme. 
+*/
+
+/* -- Hide Ribbon ---------------------------------------------------------- */
+/* -- Adjust the display and alignment of the left side-dock-ribbon area. -- */
+/* ------------------------------------------------------------------------- */
+
+.sidebar-toggle-button.mod-left {
+    background-color: var(--background-primary);
+}
+
+/* Adapt to Linux/Windows system windows. */
+.mod-linux .workspace-ribbon.side-dock-ribbon.mod-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 0px;
+    padding-top: 48;
+    width: 44px;
+    height: 100%;
+    background-color: var(--background-primary);
+}
+
+/* Adjust the bottom margin of actions. */
+.side-dock-actions {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+/* Add a pseudo-element for drawing a border line. */
+.side-dock-actions::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid var(----background-modifier-border);
+    width: 100%;
+}
+
+/* Adapt to Linux/Windows system windows. */
+.mod-linux .side-dock-settings {
+    margin-top: 10px;
+}
+
+/* Adjust the display animation effect. */
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed,
+.workspace-ribbon.mod-left {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    height: 100%;
+    opacity: 0;
+    transition: all .1s ease-out .1s;
+}
+
+/* Adjust the hide animation effect. */
+.workspace-ribbon.side-dock-ribbon.mod-left.is-collapsed:hover,
+.workspace-ribbon.mod-left:hover {
+    opacity: 1;
+    left: 0;
+    transition: all .1s ease-out .1s;}
+
+/* Adjust the position of the sidebar-toggle-button. */
+.sidebar-toggle-button {
+    -webkit-app-region: inherit;
+    height: calc(var(--header-height) - 1px);
+    display: flex;
+    justify-content: center;
+    padding: var(--size-4-2) 0 7px 0;
+    --icon-size: var(--icon-l);
+    --icon-stroke: var(--icon-l-stroke-width);
+}

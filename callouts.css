@@ -1,46 +1,30 @@
-.callout:not([data-callout~=aside]):not([data-callout~=infobox]):not([data-callout~=caption]):not([data-callout~=cards]):not([data-callout~=column]):not([data-callout~=grid]):not([data-callout~=kanban]):not([data-callout~=kith]):not([data-callout~=metadata]):not([data-callout~=row]):not([data-callout~=quote]):not([data-callout~=timeline]) .callout-title {
-    display: none;
-}
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) .callout-title {
+    display: none; }
 
-.callout:not([data-callout~=aside]):not([data-callout~=infobox]):not([data-callout~=caption]):not([data-callout~=cards]):not([data-callout~=column]):not([data-callout~=grid]):not([data-callout~=kanban]):not([data-callout~=kith]):not([data-callout~=metadata]):not([data-callout~=row]):not([data-callout~=quote]):not([data-callout~=timeline]) .callout-title-inner {
-    padding-top: 0.25em;
-}
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) .callout-title-inner {
+    padding-top: 0.25em; }
 
-.callout:not([data-callout~=aside]):not([data-callout~=infobox]):not([data-callout~=caption]):not([data-callout~=cards]):not([data-callout~=column]):not([data-callout~=grid]):not([data-callout~=kanban]):not([data-callout~=kith]):not([data-callout~=metadata]):not([data-callout~=row]):not([data-callout~=quote]):not([data-callout~=timeline]) {
-    background-color: #3C3836;
-    border-color: #282828;
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) {
     border-radius: 8px !important;
-    border-width: 1px !important;
-    padding: 0px;
-}
+    padding: 0; }
 
-.callout:not([data-callout~=aside]):not([data-callout~=infobox]):not([data-callout~=caption]):not([data-callout~=cards]):not([data-callout~=column]):not([data-callout~=grid]):not([data-callout~=kanban]):not([data-callout~=kith]):not([data-callout~=metadata]):not([data-callout~=row]):not([data-callout~=quote]):not([data-callout~=timeline]) .callout-content {
-    padding: 10px;
-}
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) .callout-content {
+    padding: 10px; }
 
-.callout:not([data-callout~=aside]):not([data-callout~=infobox]):not([data-callout~=caption]):not([data-callout~=cards]):not([data-callout~=column]):not([data-callout~=grid]):not([data-callout~=kanban]):not([data-callout~=kith]):not([data-callout~=metadata]):not([data-callout~=row]):not([data-callout~=quote]):not([data-callout~=timeline]) {
-    > .callout-content > :first-child {
-        margin-top: 0px;
-    }
-    > .callout-content > :last-child {
-        margin-bottom: 0px;
-    }
-}
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) > .callout-content > :first-child,
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) > .callout-content > :last-child {
+    margin: 0; }
 
-.HyperMD-callout,
-.HyperMD-quote {
-    background: var(--background-primary);
-}
+.HyperMD-callout, .HyperMD-quote {
+    background: var(--background-primary); }
 
 .callout[data-callout="aside"] {
-    font-size: 0.9em;
-}
+    font-size: 0.9em; }
 
 .callout[data-callout=kith] .callout-title-inner em,
 .callout.callout[data-callout~=timeline] .callout-title em{
     line-height: 24px !important;
-    text-decoration: none !important;
-}
+    text-decoration: none !important; }
 
 /*******************
   RAINDROP CALLOUTS
@@ -49,20 +33,22 @@
 .callout[data-callout="missing"] {
     /* red */
     background-color: rgba(242, 121, 131, 0.4);
-    border-color: rgba(242, 121, 131, 0.6);
-}
+    border-color: rgba(242, 121, 131, 0.6); }
 .callout[data-callout="danger"] {
     /* blue */
     background-color: rgba(92, 207, 230, 0.4);
-    border-color: rgba(92, 207, 230, 0.6);
-}
+    border-color: rgba(92, 207, 230, 0.6); }
 .callout[data-callout="error"] {
     /* green */
     background-color: rgba(135, 217, 108, 0.4);
-    border-color: rgba(135, 217, 108, 0.6);
-}
+    border-color: rgba(135, 217, 108, 0.6); }
 .callout[data-callout="bug"] {
     /* yellow */
-    background-color: red; 
-    border-color: #D79921;
-}
+    background-color: yellow; 
+    border-color: #D79921; }
+
+.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) {
+    background: var(--callout-bg);
+    border: 1px solid var(--callout-border); }
+
+

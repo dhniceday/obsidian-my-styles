@@ -1,0 +1,295 @@
+.default.theme-dark {
+  --callout-bg: var(--background-secondary);
+  --callout-border: #000000; 
+
+  --theme-dark-italic: #a882ff;
+  --theme-dark-italic-font-color: #dadada;
+  --theme-dark-bold: #fb464c;
+  --theme-dark-bold-font-color: #dadada;
+  --theme-dark-highlight-bg: #e0de71;
+  --theme-dark-highlight-font: #333333;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #fb464c;
+  --dFold2: #e9973f; 
+  --dFold3: #e0de71; 
+  --dFold4: #44cf6e; 
+  --dFold5: #53dfdd;
+  --dFold6: #027aff; 
+  --dFold7: #a882ff; 
+  --dFold8: #fa99cd; 
+  --dFold9: #fb464c; 
+  --dFold10: #e9973f; 
+  --dFold11: #e0de71; 
+  --dFold12: #44cf6e; 
+  --dFold13: #53dfdd; 
+
+  --item-dark-active-hover: #cccac2;
+}
+
+.gruvbox.theme-dark {
+  --callout-bg: #3C3836;
+  --callout-border: #282828; 
+  --theme-dark-italic: #FABD2F;
+  --theme-dark-italic-font-color: #FBF1C7;
+  --theme-dark-bold: #cc241d;
+  --theme-dark-bold-font-color: #fbf1c7;
+  --theme-dark-highlight-bg: #fabd2f;
+  --theme-dark-highlight-font: #282828;
+  
+  /* Folder and Bookmark Colors */
+  --dFold1: #fb4934;
+  --dFold2: #b8bb26; 
+  --dFold3: #fabd2f; 
+  --dFold4: #83a598; 
+  --dFold5: #d3869b;
+  --dFold6: #8ec07c; 
+  --dFold7: #fe8019; 
+  --dFold8: #fb4934; 
+  --dFold9: #b8bb26; 
+  --dFold10: #fabd2f; 
+  --dFold11: #83a598; 
+  --dFold12: #d3869b; 
+  --dFold13: #8ec07c; 
+
+  --item-dark-active-hover: #dadada;
+}
+
+ 
+.ayu-mirage.theme-dark {
+  --callout-bg: #69758c1f;
+  --callout-border: #63759926; 
+
+  --theme-dark-italic: #87d96c;
+  --theme-dark-italic-font-color: #cccac2;
+  --theme-dark-bold: #ff6666;
+  --theme-dark-bold-font-color: #cccac2;
+  --theme-dark-highlight-bg: #ffcc66;
+  --theme-dark-highlight-font: #1a1f29;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #5ccfe6;
+  --dFold2: #ff5173; 
+  --dFold3: #d5ff80; 
+  --dFold4: #95e6cb; 
+  --dFold5: #f28779;
+  --dFold6: #ffad66; 
+  --dFold7: #ffdfb3; 
+  --dFold8: #5ccfe6; 
+  --dFold9: #ff5173; 
+  --dFold10: #d5ff80; 
+  --dFold11: #f28779; 
+  --dFold12: #ffad66; 
+  --dFold13: #ffdfb3; 
+
+  --item-dark-active-hover: #cccac2;
+}
+
+.dracula.theme-dark {
+  --callout-bg: #44475a88;
+  --callout-border: #44475a; 
+
+  --theme-dark-italic: #ffb86c;
+  --theme-dark-italic-font-color: #f8f8f2;
+  --theme-dark-bold: #ff5555;
+  --theme-dark-bold-font-color: #f8f8f2;
+  --theme-dark-highlight-bg: #ffcc66;
+  --theme-dark-highlight-font: #333333;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #f1fa8c;
+  --dFold2: #ff5555; 
+  --dFold3: #bd93f9; 
+  --dFold4: #ff79c6; 
+  --dFold5: #ffb86c;
+  --dFold6: #50fa7b; 
+  --dFold7: #8be9fd; 
+  --dFold8: #f1fa8c; 
+  --dFold9: #ff5555; 
+  --dFold10: #bd93f9; 
+  --dFold11: #ff79c6; 
+  --dFold12: #ffb86c; 
+  --dFold13: #50fa7b; 
+
+  --item-dark-active-hover: #cccac2;
+}
+
+.decaf.theme-dark {
+  --callout-bg: var(--background-secondary);
+  --callout-border: #515151; 
+
+  --theme-dark-italic: #beda78;
+  --theme-dark-italic-font-color: #ffffff;
+  --theme-dark-bold: #ff7f7b;
+  --theme-dark-bold-font-color: #ffffff;
+  --theme-dark-highlight-bg: #ffd67c;
+  --theme-dark-highlight-font: #2d2d2d;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #ff93b3;
+  --dFold2: #efb3f7; 
+  --dFold3: #90bee1; 
+  --dFold4: #bed6ff; 
+  --dFold5: #beda78;
+  --dFold6: #ffd67c; 
+  --dFold7: #ffbf70; 
+  --dFold8: #ff7f7b; 
+  --dFold9: #ff93b3; 
+  --dFold10: #efb3f7; 
+  --dFold11: #90bee1; 
+  --dFold12: #bed6ff; 
+  --dFold13: #beda78; 
+
+  --item-dark-active-hover: #e0e0e0; }
+
+.woodland.theme-dark {
+  --callout-bg: var(--background-secondary);
+  --callout-border: #48413a; 
+
+  --theme-dark-italic: #b7ba53;
+  --theme-dark-italic-font-color: #e4d4c8;
+  --theme-dark-bold: #d35c5c;
+  --theme-dark-bold-font-color: #e4d4c8;
+  --theme-dark-highlight-bg: #e0ac16;
+  --theme-dark-highlight-font: #231e18;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #d35c5c;
+  --dFold2: #ca7f32; 
+  --dFold3: #e0ac16; 
+  --dFold4: #b7ba53; 
+  --dFold5: #6eb958;
+  --dFold6: #88a4d3; 
+  --dFold7: #bb90e2;
+  --dFold8: #b49368; 
+  --dFold9: #d35c5c; 
+  --dFold10: #ca7f32; 
+  --dFold11: #e0ac16; 
+  --dFold12: #b7ba53; 
+  --dFold13: #6eb958; 
+;  
+  --item-dark-active-hover: #e4d4c8; }
+
+.kimber.theme-dark {
+  --callout-bg: #313131;
+  --callout-border: #555d55; 
+
+  --theme-dark-italic: #D8B56D;
+  --theme-dark-italic-font-color: #FFFFE6;
+  --theme-dark-bold: #C88C8C;
+  --theme-dark-bold-font-color: #FFFFE6;
+  --theme-dark-highlight-bg: #D8B56D;
+  --theme-dark-highlight-font: #222222;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #704f4f;
+  --dFold2: #86cacd; 
+  --dFold3: #537c9c; 
+  --dFold4: #78b4b4; 
+  --dFold5: #99c899;
+  --dFold6: #d8b56d; 
+  --dFold7: #476c88; 
+  --dFold8: #c88c8c;
+  --dFold9: #704f4f; 
+  --dFold10: #86cacd; 
+  --dFold11: #537c9c; 
+  --dFold12: #78b4b4; 
+  --dFold13: #99c899; 
+
+  --item-dark-active-hover: #ffffe6; }
+
+.gnome.theme-dark {
+  --callout-bg: #77767b22;
+  --callout-border: #3d384699; 
+  --text-normal: #f6f5f4;
+  --text-muted: #c0bfbc;
+  --text-faint: #5e5c64;
+  --line-number-color-active: #f5c211;
+  --accent-h: 213;
+  --accent-s: 76%;
+  --accent-l: 65%;
+  --text-accent: #8b6cef;
+  --theme-dark-italic: #62a0ea;
+  --theme-dark-italic-font-color: #f6f5f4;
+  --theme-dark-bold: #e01b24;
+  --theme-dark-bold-font-color: #f6f5f4;
+  --theme-dark-highlight-bg: #f6d32d;
+  --theme-dark-highlight-font: #241f31;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #62a0ea;
+  --dFold2: #57e389; 
+  --dFold3: #f8e45c; 
+  --dFold4: #ffbe6f; 
+  --dFold5: #f66151;
+  --dFold6: #c061cb; 
+  --dFold7: #cdab8f; 
+  --dFold8: #62a0ea;
+  --dFold9: #57e389; 
+  --dFold10: #f8e45c; 
+  --dFold11: #ffbe6f; 
+  --dFold12: #f66151;
+  --dFold13: #c061cb; 
+  --dFold14: #cdab8f; 
+
+  --item-dark-active-hover: #f6f5f4;
+  --item-light-active-hover: #241f31; }
+
+.monokai.theme-dark {
+  --callout-bg: #393833;
+  --callout-border: #75715E; 
+
+  --theme-dark-italic: #A6E22E;
+  --theme-dark-italic-font-color: #F8F8F2;
+  --theme-dark-bold: #F92672;
+  --theme-dark-bold-font-color: #F8F8F2;
+  --theme-dark-highlight-bg: #F4BF75;
+  --theme-dark-highlight-font: #272822;
+    
+  /* Folder and Bookmark Colors */
+  --dFold1: #F4BF75;
+  --dFold2: #F92672; 
+  --dFold3: #AE81FF; 
+  --dFold4: #A6E22E; 
+  --dFold5: #A1EFE4;
+  --dFold6: #66D9EF; 
+  --dFold7: #F4BF75;
+  --dFold8: #F92672; 
+  --dFold9: #AE81FF; 
+  --dFold10: #A6E22E; 
+  --dFold11: #A1EFE4;
+  --dFold12: #66D9EF;
+  --dFold13: #F4BF75;
+  --dFold14: #F92672;
+
+  --item-dark-active-hover: #F8F8F2;
+  --item-light-active-hover: #272822; }
+
+/* @settings
+name: Design Adaptions
+id: design-adaptions
+settings:
+  -
+    id: Design Adaptations
+    type: info-text
+    title: Design Adaptations by *Daniel Hansen*
+    description: Adaptations to switch easier between color schemes.
+    markdown: true
+  -
+    id: color-scheme
+    title: Color scheme
+    description: Select the color scheme
+    type: class-select
+    allowEmpty: false
+    default: gruvbox
+    options:
+      - default
+      - gruvbox
+      - ayu-mirage
+      - dracula
+      - decaf
+      - woodland
+      - kimber
+      - gnome
+      - monokai
+*/

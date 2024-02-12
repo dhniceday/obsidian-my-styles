@@ -6,6 +6,8 @@ My customizations for Obsidian
 Installed with snippet color-schemes.css.
 Allows switching palettes for File Explorer and Bookmark pane.
 
+<img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/design_adaptations.png" alt="Design Adaptations" />
+
 ## Sticky Notes
 
 I have documented this in its own repository: <a href="https://github.com/dhniceday/obsidian-sticky-notes">Sticky Notes</a>

@@ -45,6 +45,10 @@ The color schemes in the screenshots use some of my css snippets:
 
 <img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_kimber.png" alt="Minimal Kimber Color Scheme" />
 
+#### Mocha
+
+<img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_mocha.png" alt="Minimal Mocha Color Scheme" />
+
 #### Monokai
 
 <img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_monokai.png" alt="Minimal Monokai Color Scheme" />

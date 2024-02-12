@@ -118,17 +118,17 @@ span.cm-highlight {
 
 [data-type="outline"] {
   .tree-item > .tree-item-self {
-    color: var(--h1-color); }
+    color: var(--dFold1); }
   .tree-item .tree-item > .tree-item-self {
-    color: var(--h2-color); }
+    color: var(--dFold2); }
   .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h3-color);  }
+    color: var(--dFold3);  }
   .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h4-color); }
+    color: var(--dFold4); }
   .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h5-color); }
+    color: var(--dFold5); }
   .tree-item .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--h6-color); }
+    color: var(--dFold6); }
 }
 
 /* Schriften */

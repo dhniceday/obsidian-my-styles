@@ -1,14 +1,21 @@
 # obsidian-my-styles
 My customizations for Obsidian
 
-## Minimal Color Schemes
+## Design Adaptations
 
-### CSS Snippets
+Installed with snippet color-schemes.css.
+Allows switching palettes for File Explorer and Bookmark pane.
+
+## Sticky Notes
+
+I have documented this in its own repository: <a href="https://github.com/dhniceday/obsidian-sticky-notes">Sticky Notes</a>
+
+## Minimal Color Schemes
 
 The color schemes in the screenshots use some of my css snippets:
 - Calendar.css (styling for the Calendar pane)
 - explorer_bookmarks.css (apply colours to File Explorer and Bookmark pane)
-- color-schemes.css (allow switching between palettes for File Explorer and Bookmark pane
+- color-schemes.css (see Design Adaptations)
 
 ### The Color Schemes
 

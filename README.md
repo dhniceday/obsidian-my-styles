@@ -46,8 +46,8 @@ The color schemes in the screenshots use some of my css snippets:
 
 #### Woodland
 
-<img src="htts://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_woodland.png" alt="Minimal Woodland Color Scheme" />
+<img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_woodland.png" alt="Minimal Woodland Color Scheme" />
 
 #### Zenburn
 
-<img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_zenburg.png" alt="Minimal Zenburn Color Scheme" />
+<img src="https://github.com/dhniceday/obsidian-my-styles/blob/main/images/minimal_zenburn.png" alt="Minimal Zenburn Color Scheme" />

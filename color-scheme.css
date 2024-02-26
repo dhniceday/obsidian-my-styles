@@ -27,6 +27,16 @@
   --item-dark-active-hover: #cccac2;
 }
 
+.default.theme-light {
+  --callout-bg: var(--background-secondary);
+  --callout-border: #4f4b47; 
+
+  --theme-light-italic: #4f4b47;
+  --theme-light-italic-font-color: #000000;
+  --theme-light-highlight-bg: #ffcc00;
+  --theme-dark-highlight-font: #000000;
+}
+
 .gruvbox.theme-dark {
   --callout-bg: #302d2c;
   --callout-border: #282828; 
@@ -346,6 +356,68 @@
   --item-dark-active-hover: #D0C8C6;
 }
 
+.catppuccin.theme-light {
+  --callout-bg: #ccd0da;
+  --callout-border: #9ca0b0; 
+  --theme-light-italic: #4c4f69;
+  --theme-light-highlight-bg: #f9e2af;
+  --theme-light-highlight-font: #11111b;
+  }
+
+.catppuccin.theme-dark {
+  --callout-bg: #313244;
+  --callout-border: #6c7086; 
+  --theme-dark-italic: #585b70;
+  --theme-dark-bold: #1e1e2e;
+  --theme-dark-highlight-bg: #f9e2af;
+  --theme-dark-highlight-font: #11111b;
+  
+    /* Folder and Bookmark Colors */
+  --dFold1: #04a5e5;
+  --dFold2: #209fb5; 
+  --dFold3: #1e66f5; 
+  --dFold4: #8839ef; 
+  --dFold5: #d20f39;
+  --dFold6: #e64553; 
+  --dFold7: #fe640b;
+  --dFold8: #40a02b; 
+  --dFold9: #04a5e5;
+  --dFold10: #209fb5; 
+  --dFold11: #1e66f5; 
+  --dFold12: #8839ef; 
+  --dFold13: #d20f39;
+  --dFold14: #e64553; 
+ 
+  --item-dark-active-hover: #cdd6f4;
+}
+
+.iawriter.theme-dark {
+  --callout-bg: #262626;
+  --callout-border: #4B4B4B; 
+  --theme-dark-italic: #D9D9D9;
+  --theme-dark-bold: transparent;
+  --theme-dark-highlight-bg: #444546;
+  --theme-dark-highlight-font: #F1F1F1;
+  
+    /* Folder and Bookmark Colors */
+  --dFold1: #B8B8B8;
+  --dFold2: #B8B8B8; 
+  --dFold3: #B8B8B8; 
+  --dFold4: #B8B8B8; 
+  --dFold5: #B8B8B8;
+  --dFold6: #B8B8B8; 
+  --dFold7: #B8B8B8;
+  --dFold8: #B8B8B8; 
+  --dFold9: #B8B8B8;
+  --dFold10: #B8B8B8; 
+  --dFold11: #B8B8B8; 
+  --dFold12: #B8B8B8; 
+  --dFold13: #B8B8B8;
+  --dFold14: #B8B8B8; 
+ 
+  --item-dark-active-hover: #F1F1F1;
+}
+
 /* @settings
 name: Design Adaptions
 id: design-adaptions
@@ -366,10 +438,12 @@ settings:
     options:
       - atelier-savanna
       - ayu-mirage
+      - catppuccin
       - decaf
       - default
       - dracula
       - gruvbox
+      - iawriter
       - kimber
       - mocha
       - monokai

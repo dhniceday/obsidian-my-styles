@@ -1,0 +1,31 @@
+/* 
+Remove formatting from markdown editor 
+*/
+
+.theme-dark, .theme-light {
+  --text-highlight-bg: transparent; }
+
+span.cm-highlight {
+  text-decoration: none !important; }
+
+.cm-hmd-internal-link, .cm-link, .cm-string.cm-url {
+  color:var(--color-accent) !important;
+  border: 0px; }
+
+.cm-hashtag {
+  background-color: var(--background-primary-alt);
+  border: 0px; }
+
+.cm-em, .cm-strong {
+  text-decoration: none !important;
+  color: var(--text-normal) !important; }
+
+/*.cm-active {
+  background-color: var(--background-primary-alt); }*/
+
+.iawriter .cm-formatting,
+.iawriter .cm-formatting-link {
+    color: #F1F1F160 !important; }
+
+.iawriter .cm-formatting-list {
+  color: var(--text-normal) !important; }

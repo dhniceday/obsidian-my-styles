@@ -27,28 +27,29 @@
     text-decoration: none !important; }
 
 /*******************
-  RAINDROP CALLOUTS
+  COLORED CALLOUTS
   *****************/
 
-.callout[data-callout="missing"] {
-    /* red */
-    background-color: rgba(242, 121, 131, 0.4);
-    border-color: rgba(242, 121, 131, 0.6); }
-.callout[data-callout="danger"] {
-    /* blue */
-    background-color: rgba(92, 207, 230, 0.4);
-    border-color: rgba(92, 207, 230, 0.6); }
-.callout[data-callout="error"] {
-    /* green */
-    background-color: rgba(135, 217, 108, 0.4);
-    border-color: rgba(135, 217, 108, 0.6); }
-.callout[data-callout="bug"] {
-    /* yellow */
-    background-color: yellow; 
-    border-color: #D79921; }
+.callout[data-callout="red"],
+.callout[data-callout="blue"],
+.callout[data-callout="yellow"],
+.callout[data-callout="green"],
+.callout[data-callout="orange"],
+.callout[data-callout="pink"] {
+    border-width: 1px !important;
+    border-left-width: 10px !important ;
+    
+}
 
-.callout:not([data-callout*="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline"]) {
-    background: var(--callout-bg);
-    border: 1px solid var(--callout-border); }
+.callout[data-callout="red"] { border-color: rgba(242, 121, 131, 1) !important; }
+.callout[data-callout="blue"] { border-color: rgba(92, 207, 230, 1) !important; }
+.callout[data-callout="green"] { border-color: rgba(135, 217, 108, 1) !important;}
+.callout[data-callout="pink"] { border-color: rgba(242, 189, 205, 1.0) !important; }
+.callout[data-callout="orange"] { border-color: rgba(255, 136, 0, 1) !important; }
+.callout[data-callout="yellow"] { border-color: rgba(254, 245, 128, 1) !important; }
+
+.callout:not([data-callout~="aside|infobox|caption|cards|column|grid|kanban|kith|metadata|row|quote|timeline|blue|green|yellow|red|pink|orange"]) {
+    background: var(--callout-bg) !important;
+    border: 1px solid var(--callout-border) }
 
 

@@ -1,28 +1,3 @@
-/* 
-Remove formatting from markdown editor 
-*/
-
-.theme-dark, .theme-light {
-  --text-highlight-bg: transparent; }
-
-span.cm-highlight {
-  text-decoration: none !important; }
-
-.cm-hmd-internal-link, .cm-link, .cm-string.cm-url, .cm-hashtag {
-  color:var(--text-normal) !important;
-  border: 0px; }
-
-.cm-hashtag {
-  background-color: var(--background-secondary);
-  border: 0px; }
-
-.cm-em {
-  text-decoration: none !important;
-  color: var(--text-normal); }
-
-.cm-active {
-  background-color: var(--background-secondary); }
-
 /* =======================================
    Dark Theme
    ======================================= */
@@ -36,9 +11,6 @@ span.cm-highlight {
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--theme-dark-bold);
-  padding-bottom: 0px;
-  font-style: italic !important;
-  font-weight: bold !important; 
   color: var(--theme-dark-bold-font-color); }
 
 /* Italic */
@@ -48,16 +20,12 @@ span.cm-highlight {
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
   text-decoration-color: var(--theme-dark-italic);
-  padding-bottom: 0px;
-  font-style: italic !important;
-  font-weight: normal !important; 
   color: var(--theme-dark-italic-font-color)}
 
 /* Highlight */
 .theme-dark .markdown-preview-view mark {
   text-decoration: none;
   color: var(--theme-dark-highlight-font);
-  font-weight: normal;
   background-color: var(--theme-dark-highlight-bg);  
   border-radius: 4px; 
   padding: 0px 2px 0px 2px; 
@@ -76,9 +44,7 @@ span.cm-highlight {
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--theme-light-bold);
-  padding-bottom: 0px;
-  font-style: normal !important;
-  font-weight: 500 !important; }
+  padding-bottom: 0px;}
 
 /* Italic */
 .theme-light .markdown-preview-section em {
@@ -86,31 +52,23 @@ span.cm-highlight {
   text-decoration-style: solid;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
-  text-decoration-color: var(--theme-light-italic);
-  padding-bottom: 0px;
-  font-style: italic !important;
-  font-weight: normal !important; }
+  text-decoration-color: var(--theme-light-italic);}
 
 .theme-light .markdown-preview-section em {
   text-decoration: underline;
   text-decoration-style: solid;
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
-  text-decoration-color: var(--theme-light-italic);
-  padding-bottom: 0px;
-  font-style: italic !important;
-  font-weight: normal !important; }
+  text-decoration-color: var(--theme-light-italic);}
 
 /* Highlight */
 .theme-light .markdown-preview-view mark {
   text-decoration: none;
   color: var(--theme-light-highlight-font);
-  font-weight: normal;
   background-color: var(--theme-light-highlight-bg);  
   border-radius: 4px; 
   padding: 0px 2px 0px 2px; 
-  opacity: 1; 
-}
+  opacity: 1;}
 
 /* =======================================
    Outliner Plugin
@@ -136,15 +94,15 @@ span.cm-highlight {
 .view-content > .markdown-source-view.mod-cm6 .cm-scroller,
 .view-content > .markdown-source-view,
 .view-content > .cm-s-obsidian {
-  font-family: "JetBrains Mono"; }
+  font-family: "iA Writer Quattro V"; }
 
 .default h1, .default h2, .default h3, .default h4, .default h5, .default h6,
 .gnome h1, .gnome h2, .gnome h3, .gnome h4, .gnome h5, .gnome h6 {
-  font-family: "IBM Plex Sans"; }
+  font-family: "Oxygen"; }
 
 .default .cm-header-1, .default .cm-header-2, .default .cm-header-3, .default .cm-header-4, .default .cm-header-5, .default .cm-header-6,
 .gnome .cm-header-1, .default .cm-header-2, .default .cm-header-3, .default .cm-header-4, .default .cm-header-5, .default .cm-header-6   {
-  font-family: "JetBrains Mono"; 
+  font-family: "IBM Plex Mono"; 
   color: var(--text-accent);}
 
 .gnome h1, .gnome h2, .gnome h3, .gnome h4, .gnome h5, .gnome h6,
@@ -152,9 +110,6 @@ span.cm-highlight {
 .gnome .markdown-preview-section .external-link {
   color: var(--text-accent); 
   font-weight: var(--font-medium); }
-
-.cm-formatting:not(.cm-formatting-code-block):not(.cm-formatting-hashtag) {
-  color: var(--text-faint); }
 
 body {
   --line-number-color: var(--text-faint);

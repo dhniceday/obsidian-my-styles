@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
+/***************
+ POPOVER WINDOW
+***************/
+/*
 .popover.hover-popover {
   position: absolute;
   z-index: var(--layer-popover);
   max-height: 800px;
-  /* was 300 */
   min-height: 500px;
   width: 800px;
   overflow: hidden;
@@ -20,17 +23,13 @@ font-size: 24px;
 font-size: 18px;
 border-radius: 14px;
 }
+*/
 
-/**IN LIGHT THEME */
-.theme-light .mod-right-split .view-content,
-.theme-light .mod-right-split .workspace-tab-header-container
-.theme-light .nav-header {
-  background-color: var(--background-primary-alt);
-}
-
-/**IN DARK THEME */
-.theme-dark .mod-right-split .view-content,
-.theme-dark .mod-right-split .workspace-tab-header-container,
-.theme-dark .nav-header {
+/**************
+ RIGHT SIDEBAR 
+**************/
+.mod-right-split .view-content,
+.mod-right-split .workspace-tab-header-container,
+.nav-header {
   background-color: var(--background-primary-alt);
 }

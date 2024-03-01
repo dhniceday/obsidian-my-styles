@@ -1,74 +1,31 @@
-/* =======================================
-   Dark Theme
-   ======================================= */
-
 /* Bold */
-.theme-dark .markdown-preview-section strong,
-.theme-dark .markdown-preview-section strong > a,
-.theme-dark .markdown-preview-section strong > a:hover {
+.markdown-preview-section strong,
+.markdown-preview-section strong > a,
+.markdown-preview-section strong > a:hover {
   text-decoration: underline;
   text-decoration-style: solid;
   text-underline-offset: 4px;
   text-decoration-thickness: 2px;
-  text-decoration-color: var(--theme-dark-bold);
-  color: var(--theme-dark-bold-font-color); }
+  text-decoration-color: var(--theme-bold);
+  color: var(--theme-bold-font-color); }
 
 /* Italic */
-.theme-dark .markdown-preview-section em {
+.markdown-preview-section em {
   text-decoration: underline;
   text-decoration-style: solid;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
-  text-decoration-color: var(--theme-dark-italic);
-  color: var(--theme-dark-italic-font-color)}
+  text-decoration-color: var(--theme-italic);
+  color: var(--theme-italic-font-color)}
 
 /* Highlight */
-.theme-dark .markdown-preview-view mark {
+.markdown-preview-view mark {
   text-decoration: none;
-  color: var(--theme-dark-highlight-font);
-  background-color: var(--theme-dark-highlight-bg);  
+  color: var(--theme-highlight-font);
+  background-color: var(--theme-highlight-bg);  
   border-radius: 4px; 
   padding: 0px 2px 0px 2px; 
   opacity: 1; }
-
-/* =======================================
-   Light Theme
-   ======================================= */
-
-/* Bold */
-.theme-light .markdown-preview-section strong,
-.theme-light .markdown-preview-section strong > a,
-.theme-light .markdown-preview-section strong > a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--theme-light-bold);
-  padding-bottom: 0px;}
-
-/* Italic */
-.theme-light .markdown-preview-section em {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
-  text-decoration-color: var(--theme-light-italic);}
-
-.theme-light .markdown-preview-section em {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 2px;
-  text-decoration-color: var(--theme-light-italic);}
-
-/* Highlight */
-.theme-light .markdown-preview-view mark {
-  text-decoration: none;
-  color: var(--theme-light-highlight-font);
-  background-color: var(--theme-light-highlight-bg);  
-  border-radius: 4px; 
-  padding: 0px 2px 0px 2px; 
-  opacity: 1;}
 
 /* =======================================
    Outliner Plugin
@@ -76,17 +33,17 @@
 
 [data-type="outline"] {
   .tree-item > .tree-item-self {
-    color: var(--dFold1); }
+    color: var(--folder1); }
   .tree-item .tree-item > .tree-item-self {
-    color: var(--dFold2); }
+    color: var(--folder2); }
   .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--dFold3);  }
+    color: var(--folder3);  }
   .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--dFold4); }
+    color: var(--folder4); }
   .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--dFold5); }
+    color: var(--folder5); }
   .tree-item .tree-item .tree-item .tree-item .tree-item .tree-item > .tree-item-self {
-    color: var(--dFold6); }
+    color: var(--folder6); }
 }
 
 /* Schriften */

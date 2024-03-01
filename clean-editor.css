@@ -9,7 +9,7 @@ span.cm-highlight {
   text-decoration: none !important; }
 
 .cm-hmd-internal-link, .cm-link, .cm-string.cm-url {
-  color:var(--color-accent) !important;
+  color:var(--text-normal) !important;
   border: 0px; }
 
 .cm-hashtag {
@@ -23,9 +23,13 @@ span.cm-highlight {
 /*.cm-active {
   background-color: var(--background-primary-alt); }*/
 
-.iawriter .cm-formatting,
-.iawriter .cm-formatting-link {
-    color: #F1F1F160 !important; }
+.theme-dark.iawriter .cm-formatting,
+.theme-dark.iawriter .cm-formatting-link {
+  color: #F1F1F160 !important; }
+
+.theme-light.iawriter .cm-formatting,
+.theme-light.iawriter .cm-formatting-link {
+  color: #42424260 !important; }
 
 .iawriter .cm-formatting-list {
   color: var(--text-normal) !important; }
